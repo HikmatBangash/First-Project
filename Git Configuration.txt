@@ -1,0 +1,44 @@
+First you need to initilize git repo
+command : git init
+
+but Now a days React come with pre-built things, 
+so you don't need to use git init.
+
+Next command is for status checking
+
+analogy: let say we want to dubai, and we ensure the presence of 
+passengers on the report. now to see the status that either passenger is in 
+the airport or not, so for that use git status command
+
+command: git status
+
+if you get untracked files as a result of git status then it means that
+passengers are not in the airport,  so to bring the passengers to airport
+we have to call the passengers
+
+in git languange we have to use git command which is mentioned below
+
+command: git add .
+
+now again check the status by running the git status command
+
+if you get the statements like changes are ready to commit or green files.
+then it means it is ready to commit and same like passengers are in the airport 
+so before sending passenger to dubai they must take message with theirself
+
+for this use git command : git commit -m "any message";
+
+Now for pushing code to github you need to connect local repo with remote repo
+
+
+local repo means the folders in which your current project is located
+remote repo is the repository you created on github
+
+so for connecting 
+
+command: git remote add origin https://github.<expected URL>
+
+and now push code to this repo 
+
+command: git push -u origin master
+
